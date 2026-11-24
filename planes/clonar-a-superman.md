@@ -11,6 +11,10 @@
 
 Crear un clon perfecto de Superman, controlado por la Legión, e infiltrarlo en la Liga de la Justicia para destruirla desde dentro.
 
+## Estado
+
+jjjjjj
+
 ## Concepto general
 
 Si no podemos vencer a Superman con fuerza, lo reemplazamos. Un clon de Superman con los mismos poderes pero leal a la Legión podría:

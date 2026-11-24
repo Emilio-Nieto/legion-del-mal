@@ -6,3 +6,8 @@ Spiderman es un superhéroe
 
 -Doctor Octupus 
 -Green goblin 
+
+## Conocidos
+
+-Tio Ben
+-Harry 

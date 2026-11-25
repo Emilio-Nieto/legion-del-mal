@@ -32,7 +32,7 @@ jobs:
           echo "Habilidades técnicas"
           node --version
           git --version
-          pyhton3 --version
+
       
       - name: Reconocimiento del terreno 
         run: |

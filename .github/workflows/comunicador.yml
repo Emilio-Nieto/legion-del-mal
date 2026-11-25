@@ -15,6 +15,20 @@ on:
           - "Lex Luthor"
           - "Darkseid"
 
+      mensaje:
+        description: "Mensaje a transmitir"
+        required: true
+        default: "La misión fue un éxito"
+     
+      prioridad:
+        description: "Nivel de prioridad"
+        required: true
+        type: choice
+        options:
+          - "Alta"
+          - "Media"
+          - "Baja"
+
 jobs:
   transmitir-mensaje:
     runs-on: ubuntu-latest

@@ -15,3 +15,19 @@ jobs:
           ls -la 
           echo ""
           echo "pero qué paso? no hay nada"
+      
+      - name: "Brainiac desbloquea la bóveda secreta"
+        uses: actions/checkout@v4
+      
+      - name: "Ahora sí, vamos a ver los planes de la Legión"
+        run: |
+          echo "Buscar los archivos de la Legión"
+          ls -la 
+          echo "y ahora sí, hay algo"
+          echo ""
+          echo "Planes:"
+          ls planes/
+          echo "Villanos:"
+          ls villanos/
+          echo "Inteligencia:"
+          ls inteligencia/

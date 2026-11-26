@@ -34,9 +34,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Instalar el transmisor de la legión
-        run: |
-          sudo apt-get install -y cowsay
 
       - name: Imprimir inputs
         run: |
@@ -48,7 +45,7 @@ jobs:
           echo ""
           echo "Fecha $(date -u +%d/%m/%Y) a las $(date -u +%H:%M:%S)"
           echo "----Mensaje----"
-          cowsay -f eyes "${{ inputs.mensaje }}"
+          echo "${{ inputs.mensaje }}"
           echo ""
           echo "--- ${inputs.villano} "
           echo "..."

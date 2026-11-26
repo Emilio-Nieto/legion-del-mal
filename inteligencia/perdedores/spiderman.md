@@ -11,3 +11,7 @@ Spiderman es un superhéroe
 
 -Tio Ben
 -Harry 
+
+## Estrategia recomendada
+
+-ff
